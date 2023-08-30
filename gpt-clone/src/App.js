@@ -1,9 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <h1>Hello chat gtp</h1>
+    <div className="App">
+      <div className="sidebar">
+        <div className="upperside">
+
+        </div>
+        <div className="lowerside">
+
+        </div>
+        <div className='main'>
+        
+      </div>
+      </div>
+    </div>
   );
 }
 
