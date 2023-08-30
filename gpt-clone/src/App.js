@@ -4,6 +4,10 @@ function App() {
   return (
     <div className="App">
       <div className="sidebar">
+        <div className="upperSideTop">
+          <img />
+
+        </div>
         <div className="upperside">
 
         </div>
