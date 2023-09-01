@@ -1,4 +1,5 @@
 import "./App.css";
+import gptLogo from "./assets/chatgpt.svg"
 
 function App() {
   return (
