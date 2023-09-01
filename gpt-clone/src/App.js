@@ -8,7 +8,7 @@ function App() {
         <div className="upperSideTop">
           <img src="" alt="" className="logo" />
           <span className="btand">Black CodeX</span>
-          <button className="midBtn"><img src="" alt="" className="addBtn" />New Chat +</button>
+          <button className="midBtn"><img src={gptLogo} alt="" className="addBtn" />New Chat +</button>
           <div className="upperSideBottom">
             <button className="query"><img src="" alt="" />How To Join Microverse</button>
             <button className="query"><img src="" alt="" />What is AI</button>
