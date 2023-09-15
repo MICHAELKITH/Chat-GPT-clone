@@ -15,6 +15,10 @@ function App() {
             <button className="query"><img src="" alt="" />What is ORM</button>
             <button className="query"><img src="" alt="" />What is Climate Change</button>
             <button className="query"><img src="" alt="" />What is Climate Change</button>
+            <button className="query"><img src="" alt="" />What is AI</button>
+            <button className="query"><img src="" alt="" />What is ORM</button>
+            <button className="query"><img src="" alt="" />What is Climate Change</button>
+            <button className="query"><img src="" alt="" />What is Climate Change</button>
           </div>
         </div>
         <div className="upperside">
