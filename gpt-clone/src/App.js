@@ -32,8 +32,8 @@ function App() {
         </div>
         <div className="upperside"></div>
         <div className="lowerside"></div>
-        <div className="main"></div>
       </div>
+      <div className="main"></div>
     </div>
   );
 }
