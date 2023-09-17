@@ -17,15 +17,15 @@ function App() {
           <div className="upperSideBottom">
             <button className="query">
               <img src="" alt="" />
-              What is AI
+              What is AI?
             </button>
             <button className="query">
               <img src="" alt="" />
-              How to connect Ruby On Rails
+              How to connect Ruby On Rails?
             </button>
             <button className="query">
               <img src="" alt="" />
-              What is ORM
+              What is ORM?
             </button>
           </div>
         
