@@ -88,16 +88,25 @@ body{
   object-fit: cover;
   height: 1.75rem;
 }
-.lowerSide{
+.lowerside{
   padding: 2rem;
 }
 .listItems{
-  margin: 0.75rem;
+  margin: 1rem;
   align-items: center;
   font-size: 1.3rem;
+  display: flex;
 }
 
 .listItemImg{
   margin: 1rem;
   padding-right: 1rem;
+}
+.listItemImg:nth-child(1)>.listItemImg{
+  margin-right: 0.5rem;
+
+}
+.listItemImg:nth-child(3)>.listItemImg{
+  margin-right: 0.75rem;
+  
 }

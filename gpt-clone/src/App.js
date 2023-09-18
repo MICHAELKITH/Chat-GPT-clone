@@ -25,7 +25,7 @@ function App() {
             </button>
             <button className="query">
               <img src={msgIcon} alt="" />
-              How to connect Ruby On Rails with React?
+              What is Active Records?
             </button>
             <button className="query">
               <img src={msgIcon} alt="" />
@@ -34,7 +34,7 @@ function App() {
           </div>
         
         </div>
-        <div className="upperside"></div>
+        {/* <div className="upperside"></div> */}
         <div className="lowerside">
           <div className="listItems">
             <img src={home} alt="" className="listItemImg" />
