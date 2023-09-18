@@ -21,7 +21,7 @@ function App() {
             </button>
             <button className="query">
               <img src="" alt="" />
-              How to connect Ruby On Rails?
+              How to connect Ruby On Rails with React?
             </button>
             <button className="query">
               <img src="" alt="" />
