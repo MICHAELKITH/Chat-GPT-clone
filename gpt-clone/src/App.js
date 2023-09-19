@@ -46,7 +46,7 @@ function App() {
           </div>
           <div className="listItems">
             <img src={rocket} alt="" className="listItemImg" />
-            Upgrade to pro
+            Upgrade to Pro
           </div>
         </div>
       </div>
