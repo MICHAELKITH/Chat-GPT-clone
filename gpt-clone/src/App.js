@@ -68,6 +68,7 @@ function App() {
           <div className="inp">
             <input type="text" placeholder="Send a message" name="" id="" /><button className="send"><img src={sendBtn}alt="Send" /></button>
           </div>
+          <p>Black CodeX may produce inacurrate results</p>
         </div>
       </div>
     </div>
