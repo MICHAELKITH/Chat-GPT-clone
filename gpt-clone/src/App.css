@@ -131,9 +131,22 @@ body{
 .chat{
   margin: 1rem;
   display: flex;
+  padding: 2rem 3rem;
   font-size: 1.2rem;
   align-items: flex-start;
+  text-align: justify;
 
+}
+
+.chatImg{
+  object-fit: cover;
+  width: 3.5rem;
+  margin-right: 2rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 
 .chatFooter{
