@@ -5,6 +5,7 @@ import msgIcon from "./assets/message.svg";
 import home from "./assets/home.svg";
 import saved from "./assets/bookmark.svg";
 import rocket from "./assets/rocket.svg";
+import sendBtn from "./assets/send.svg";
 function App() {
   return (
     <div className="App">
@@ -50,7 +51,14 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="main"></div>
+      <div className="main">
+        <div className="chats"></div>
+        <div className="chatFooter">
+          <div className="inp">
+            <input type="text" placeholder="Send a message" name="" id="" /><button className="send"><img src={sendBtn}alt="Send" /></button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
