@@ -59,7 +59,7 @@ function App() {
             <img className="chatImg" src={userIcon} alt="" />
             <p className="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi fugit in veritatis hic laudantium. Placeat, rerum amet quidem eligendi dolor a nam, quisquam natus deserunt corrupti accusamus similique. Temporibus.</p>
           </div>
-          <div className="chat">
+          <div className="chat bot ">
             <img className="chatImg" src={GPT} alt="" />
             <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam veniam libero inventore fuga non numquam. Doloremque, corporis impedit voluptates vel atque amet illum aliquid dignissimos saepe ipsum quo. Itaque in fugit cumque nulla, modi aperiam nobis voluptatibus laboriosam aut omnis explicabo quisquam culpa voluptates saepe, id est unde possimus consectetur dolor dolorum. Quidem debitis eius eveniet illo ut ea nobis officia placeat fuga optio! Ad quidem id impedit nulla sapiente? Reprehenderit ratione nihil a beatae culpa eos alias doloribus quas assumenda cumque eligendi quidem laboriosam est non quisquam suscipit cum autem, nam sed obcaecati explicabo laborum animi. Perspiciatis, necessitatibus similique!className="chatImg" </p>
           </div>
