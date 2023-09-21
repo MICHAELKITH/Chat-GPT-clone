@@ -167,7 +167,7 @@ body{
   -moz-border-radius: 0.5rem;
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
-  width: 70rem;
+  width: 68rem;
 }
 .inp>input{
   outline: none;
@@ -182,4 +182,13 @@ body{
 }
 .chatFooter>p{
   margin: 2rem 0;
+}
+.bot{
+  background: rgba(28, 30, 58, 1);
+  width: fit-content;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
