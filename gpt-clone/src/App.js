@@ -1,4 +1,5 @@
 import "./App.css";
+import {useState} from 'react'
 import gptLogo from "./assets/chatgpt.svg";
 import addBtn from "./assets/add-30.png";
 import msgIcon from "./assets/message.svg";
@@ -8,7 +9,13 @@ import rocket from "./assets/rocket.svg";
 import sendBtn from "./assets/send.svg";
 import userIcon from "./assets/user-icon.png";
 import GPT from "./assets/chatgptLogo.svg";
+import { sendMsgToApi } from "./openai";
 function App() {
+  const [input, setInput] = useState("")
+
+  const handlesend = ()=>{
+    const res = sendMsgToApi
+  }
   return (
     <div className="App">
       <div className="sideBar">
@@ -66,7 +73,7 @@ function App() {
         </div>
         <div className="chatFooter">
           <div className="inp">
-            <input type="text" placeholder="Send a message" name="" id="" /><button className="send"><img src={sendBtn}alt="Send" /></button>
+            <input type="text" placeholder="Send a message" value = {input} onChange ={(e)=>{setInput(e.target.value)}}name="" id="" /><button className="send" onClick={handlesend}><img src={sendBtn}alt="Send" /></button>
           </div>
           <p>Black CodeX may produce inacurrate results</p>
         </div>
