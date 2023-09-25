@@ -13,8 +13,8 @@ import { sendMsgToApi } from "./openai";
 function App() {
   const [input, setInput] = useState("")
 
-  const handlesend = ()=>{
-    const res = sendMsgToApi
+  const handlesend = async ()=>{
+    const res = await sendMsgToApi(input)
   }
   return (
     <div className="App">
