@@ -18,22 +18,3 @@ export async function sendMsgToApi(message) {
 }
 
 
-
-// const OpenAI = require("openai");
-
-// const apiKey = process.env.Api_key; // Make sure you have the environment variable Api_key set with your API key.
-
-// const openai = new OpenAI({
-//   apiKey: apiKey
-// });
-
-// const openFun = async () => {
-//   const chatCompletion = await openai.chat.completions.create({
-//     model: "gpt-3.5-turbo",
-//     messages: [{ "role": "user", "content": "YOUR PROMPT TEXT" }],
-//     max_tokens: 30
-//   });
-//   console.log(chatCompletion.choices[0].message.content);
-// };
-
-// openFun();
