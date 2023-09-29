@@ -10,6 +10,8 @@ import sendBtn from "./assets/send.svg";
 import userIcon from "./assets/user-icon.png";
 import GPT from "./assets/chatgptLogo.svg";
 import { sendMsgToApi } from "./openai";
+
+
 function App() {
   const [input, setInput] = useState("")
 
@@ -40,6 +42,10 @@ function App() {
             <button className="query">
               <img src={msgIcon} alt="" />
               What is ORM?
+            </button>
+            <button className="query">
+              <img src={msgIcon} alt="" />
+              What is JQUERY?
             </button>
           </div>
         
