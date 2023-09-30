@@ -15,8 +15,9 @@ import { sendMsgToApi } from "./openai";
 function App() {
   const [input, setInput] = useState("")
 
-  const handlesend = async ()=>{
-    const res = await sendMsgToApi(input)
+  const handleSend = async () => {
+    const res = await sendMsgToApi(input);
+    console.log(res)
   }
   return (
     <div className="App">
@@ -79,7 +80,7 @@ function App() {
         </div>
         <div className="chatFooter">
           <div className="inp">
-            <input type="text" placeholder="Send a message" value = {input} onChange ={(e)=>{setInput(e.target.value)}}name="" id="" /><button className="send" onClick={handlesend}><img src={sendBtn}alt="Send" /></button>
+            <input type="text" placeholder="Send a message" value = {input} onChange ={(e)=>{setInput(e.target.value)}}name="" id="" /><button className="send" onClick={handleSend}><img src={sendBtn}alt="Send" /></button>
           </div>
           <p>Black CodeX may produce inacurrate results</p>
         </div>

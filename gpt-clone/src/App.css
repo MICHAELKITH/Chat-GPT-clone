@@ -119,14 +119,14 @@ body{
   margin: 6rem 10rem;
   margin-bottom: 0;
 }
-.chats{
+.chats {
   overflow: hidden;
-  overflow-y: scroll;
   scroll-behavior: smooth;
   width: 100%;
   max-width: 70rem;
   height: calc(100vh - 17rem);
 }
+
 
 .chat{
   margin: 1rem;
